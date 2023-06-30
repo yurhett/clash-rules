@@ -2,8 +2,8 @@ rule-providers:
   custom-direct:
     type: http
     behavior: domain
-    url: https://ghproxy.com/raw.githubusercontent.com/yurhett/clash-rules/main/custom_diect.yml
-    path: "./rule_provider/custom_diect.yaml"
+    url: https://ghproxy.com/raw.githubusercontent.com/yurhett/clash-rules/main/custom_direct.yml
+    path: "./rule_provider/custom_direct.yaml"
     interval: 86400
   download:
     type: http
